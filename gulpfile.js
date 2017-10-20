@@ -1,4 +1,3 @@
-
 var del = require('del');
 var utilities = require('gulp-util');
 var gulp = require('gulp');

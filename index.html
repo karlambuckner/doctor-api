@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link href="build/css/vendor.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Doctor Search</title>
+  </head>
+  <body>
+      <div class="jumbotron">
+        <h1>Welcome to PDX Doctor Search!</h1>
+      </div>
+      <img src="img/doctor.png" alt="medical photo" height="300px"; width="auto";>
+      <br>
+      <br>
+      <h3>Search by a medical issue or by doctor name to find a doctor in the Portland area who can provide treatment for you!</h3>
+      <br>
+      <h3>Your symptom or issue:</h3>
+      <label for="issue"></label>
+      <input type="text" id="issue">
+      <button type="button" class="btn" id="issueButton">Select</button>
+      <br>
+      <br>
+      <h3>Search by Doctor Name:</h3>
+      <label for="search"></label>
+      <input type="text" id="search">
+      <button type="button" class="btn" id="SearchButton">Find</button>
+      <br>
+      <br>
+
+      <div class="container" id="output">
+      </div>
+      <div id="error">
+      </div>
+  </body>
+</html>
