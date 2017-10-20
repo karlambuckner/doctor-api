@@ -10,7 +10,7 @@ _In this web application, the user can search for a Portland doctor by doctor na
 
 ## Specifications
 
-* _A user should be able to enter a medical issue to receive a list of doctors in the Portland area that fit the search query_
+* _A user should be able to enter a medical issue to receive a list of doctors in the Portland area that fit the search query._
 
 * _A user should be able to to enter a name to receive a list of doctors in the Portland area that fit the search query._
 
@@ -23,6 +23,7 @@ _In this web application, the user can search for a Portland doctor by doctor na
 ## Setup/Installation Requirements
 
 * _Clone this repository from Github_
+* _cd into repository_
 * _Run npm install, bower install, gulp build and gulp serve_
 
 ## Known Bugs
