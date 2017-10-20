@@ -7,41 +7,43 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Doctor Search</title>
+    <title>PDX Doctor Search</title>
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Welcome to PDX Doctor Search!</h1>
+      <h1>Welcome to the PDX Doctor Search!</h1>
     </div>
-      <img src="img/doctor.png" alt="medical photo" height="300px"; width="auto";>
-      <br>
-      <br>
-      <h3>Search by a medical issue or by doctor name to find a doctor in the Portland area who can provide treatment for you!</h3>
-      <br>
+    <img src="img/doctor.png" alt="medical photo" height="300px"; width="auto";>
+    <br>
+    <br>
+    <h3>Search by a medical issue and doctor's last name to find a doctor in the Portland area who can provide treatment for you!</h3>
+    <br>
     <div class="container">
       <div class="card">
-        <h3>Your symptom or issue:</h3>
-        <label for="issue"></label>
-        <input type="text" id="issue">
-        <br>
-        <button type="button" class="btn" id="issueButton">Select</button>
-      </div>
-      <br>
-      <br>
-      <div class="card">
-        <h3>Search by Doctor Name:</h3>
-        <label for="search"></label>
-        <input type="text" id="search">
-        <br>
-        <button type="button" class="btn" id="SearchButton">Find</button>
+        <form id="doctor-form">
+          <div class="form-group">
+            <h3>Your symptom or issue:</h3>
+            <label for="issue"></label>
+            <input type="text" id="issue"class="form-group">
+            <br>
+            <br>
+            <br>
+            <h3>Search by Doctor's Last Name:</h3>
+            <label for="search"></label>
+            <input type="text" id="search" class="form-group">
+            <br>
+            <button type="submit" class="btn">Find</button>
+          </div>
+        </form>
       </div>
     </div>
-      <br>
-      <br>
+    <br>
+    <br>
 
-      <div class="container" id="output">
-      </div>
-      <div id="error">
-      </div>
+    <div class="container" id="output">
+    </div>
+
+    <div id="error">
+    </div>
   </body>
 </html>
