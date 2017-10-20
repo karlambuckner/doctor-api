@@ -1,3 +1,31 @@
 body {
   padding: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  background-color: gray;
+  text-align: center;
+  color: #e4e5e3;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  color: black;
+}
+
+img {
+  border-color: black;
+  border-style: double;
+  border-width: thick;
+}
+
+.card {
+  color: black;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #53b1d1;
 }

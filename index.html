@@ -4,29 +4,38 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <link href="build/css/vendor.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Doctor Search</title>
   </head>
   <body>
-      <div class="jumbotron">
-        <h1>Welcome to PDX Doctor Search!</h1>
-      </div>
+    <div class="jumbotron">
+      <h1>Welcome to PDX Doctor Search!</h1>
+    </div>
       <img src="img/doctor.png" alt="medical photo" height="300px"; width="auto";>
       <br>
       <br>
       <h3>Search by a medical issue or by doctor name to find a doctor in the Portland area who can provide treatment for you!</h3>
       <br>
-      <h3>Your symptom or issue:</h3>
-      <label for="issue"></label>
-      <input type="text" id="issue">
-      <button type="button" class="btn" id="issueButton">Select</button>
+    <div class="container">
+      <div class="card">
+        <h3>Your symptom or issue:</h3>
+        <label for="issue"></label>
+        <input type="text" id="issue">
+        <br>
+        <button type="button" class="btn" id="issueButton">Select</button>
+      </div>
       <br>
       <br>
-      <h3>Search by Doctor Name:</h3>
-      <label for="search"></label>
-      <input type="text" id="search">
-      <button type="button" class="btn" id="SearchButton">Find</button>
+      <div class="card">
+        <h3>Search by Doctor Name:</h3>
+        <label for="search"></label>
+        <input type="text" id="search">
+        <br>
+        <button type="button" class="btn" id="SearchButton">Find</button>
+      </div>
+    </div>
       <br>
       <br>
 
