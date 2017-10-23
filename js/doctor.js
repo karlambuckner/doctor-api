@@ -44,4 +44,8 @@ export class Doctor {
       $('#error').text(`There was an error processing your request: ${error.message}`);
     });
   }
+
+  clearApi(){
+    $('#output').html('');
+  }
 }
