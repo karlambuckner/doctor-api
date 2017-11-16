@@ -1,5 +1,7 @@
 # _PDX Doctor Finder_
 
+<img width="1815" alt="screen shot 2017-11-16 at 2 45 13 pm" src="https://user-images.githubusercontent.com/27794720/32920066-d1c6c368-cadc-11e7-8e76-030dfa02418c.png">
+
 #### _This is a web application for finding a doctor in the Portland area. Oct 20, 2017_
 
 #### By _**Karla Buckner**_
